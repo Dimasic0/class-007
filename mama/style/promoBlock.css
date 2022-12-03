@@ -1,0 +1,33 @@
+.promoBlock h2 {
+	width: 529px;
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 81.71px;
+  color: #373737;
+}
+.promoBlock a {
+	padding: 22px 56px;
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.12rem;
+	background-color: #373737;
+	color: white;
+}
+.promoBlock {
+	display: grid;
+	grid-template: 282px 224px 66px 395px/
+	               375px 234px 295px 673px;
+}
+.promoBlock h2 {
+	grid-area: 2/2/3/3;
+}
+.promoBlock img {
+	grid-area: 1/3/5/5;
+	width: 100%;
+}
+.promoBlock a {
+	grid-area: 3/2/4/3;
+}
+.promoBlock h2 {
+	margin-top: 0;
+}

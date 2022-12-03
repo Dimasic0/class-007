@@ -1,0 +1,36 @@
+header {
+  margin-left: 379px;
+	width: 1167px;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.catalog header {
+	margin-bottom: 100px;
+}
+.header__menu {
+	margin-top: 8px;
+	margin-left: 64px;
+}
+.header__list {
+	margin-top: 4px;
+	width: max-content;
+}
+.header__item:nth-child(n+2) {
+  margin-left: 63px;
+}
+.header__list button {
+	width: 19px;
+	height: 20px;
+}
+.header__button--heart {
+	background-image: url("../img/heart.png");
+}
+.header__button--human {
+	background-image: url("../img/human.png");
+}
+.header__button--lock {
+	background-image: url("../img/lock.png");
+}
+.header__list li:nth-child(n+2) {
+	margin-left: 23px;
+}

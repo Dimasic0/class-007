@@ -1,0 +1,30 @@
+
+.products {
+	margin-left: 76px;
+}
+.products__item {
+	width: 286px;
+}
+.products__item img {
+	order: -1;
+}
+.products__item h3 {
+	margin-top: 30px;
+	font-size: 0.8rem;
+	letter-spacing: 0.07rem;
+	color: #757575;
+}
+.products__item p {
+	margin-top: 17px;
+	font-weight: 600;
+}
+.products__item P::after {
+  content: "₽";
+  font-weight: 400;
+
+}
+.products ul {
+	width: 898px;
+	flex-wrap: wrap;
+	gap: 70px 20px;
+}

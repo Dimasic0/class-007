@@ -1,0 +1,48 @@
+html {
+	font-size: 20px;
+}
+body {
+	font-family: "open sans", sans-serif;
+  font-size: 20px;
+  width: max-content;
+}
+* {
+		background-size: 100% 100%;
+}
+.row {
+	display: flex;
+}
+ul {
+	margin: 0;
+	padding-left: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.visually-hidden,
+*[name="photo"] {
+	display: none;
+}
+button {
+	border: 0px;
+	padding: 0;
+  background-color: transparent;
+}
+a {
+	width: max-content;
+  height: max-content;
+}
+p {
+  margin: 0;
+}
+h2,h3 {
+	margin-bottom: 0;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+}

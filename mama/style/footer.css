@@ -1,0 +1,38 @@
+footer {
+	width: 100%;
+	margin-top: 193px;
+	padding: 49px 0;
+	background-color: #D9E3EF;
+}
+footer h1 {
+	margin-left: 375px;
+}
+.footer__list--menu {
+	margin: 12px 0 0 315px;
+}
+.footer__menu-item {
+	font-size: 0.8rem;
+	letter-spacing: 0.07rem;
+}
+.footer__menu-item:nth-child(n+2) a { 
+  margin-left: 50px;
+}
+.footer__list--socialNetwork {
+	margin-top: 12px;
+}
+.footer__socialNetwork {
+	width: 18px;
+	height: 18px;
+}
+.footer__socialNetwork.f {
+	background: url("../img/facebook.png");
+}
+.footer__socialNetwork.ins {
+	background: url("../img/instagram.png");
+}
+.footer__list--socialNetwork {
+  margin-left: 92px;
+}
+.footer__socialNetwork:nth-child(n+2) {
+	margin-left: 8px;
+}

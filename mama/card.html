@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/card.css">
+</head>
+<body>
+	<header class="row">
+		<nav class="row">
+			<h1><img src="img/dolly.png" alt="логотип dolly"></h1>
+			<ul class="header__menu row">
+				<li class="header__item"><a href="#">ОДЕЖДА</a></li>
+				<li class="header__item"><a href="#">ОБУВЬ</a></li>
+				<li class="header__item"><a href="#">АКСЕССУАРЫ</a></li>
+			</ul>
+		</nav>
+		<ul class="header__list row">
+			<li><button class="header__button--heart"></button></li>
+			<li><button class="header__button--human"></button></li>
+			<li><button class="header__button--lock"></button></li>
+		</ul>
+	</header>
+	<main>
+		<article class="product">
+			<h2>Туфли лакированные</h2>
+			<p>4 999 ₽</p>
+			<div class="product__gallery">
+			  <div class="product__block--img row">
+				  <img src="img/shoes with background.jpg" alt="туфли кремовые">
+				  <button class="product__arrow left">назад</button>
+			      <button class="product__arrow right">вперёд</button>
+		    </div>
+		    <div class="product__block--switches">
+		  	  <ul class="product__list--switches row">
+		  	    <li><label><input type="radio" name="img" class="visually-hidden"><img src="img/shoe front.jpg" alt="туфли спереди"></label></li>
+		  	    <li><label><input type="radio" name="img" class="visually-hidden"><img src="img/back shoe.jpg" alt="туфли сзади"></label></li>
+		  	    <li><label><input type="radio" name="img" class="visually-hidden"><img src="img/shoes with background.jpg" alt="туфли сбоку"></label></li>
+		      </ul>
+		    </div>
+		</div>
+		  <div class="row">
+			<h3>Размеры:</h3>
+			<form action="#" method="get">
+			  <ul class="row">
+				  <li><label><input type="radio" name="size" value="32" class="visually-hidden"><span>32</span></label></li>
+				  <li><label><input type="radio" name="size" value="34" class="visually-hidden"><span>34</span></label></li>
+				  <li><label><input type="radio" name="size" value="36" class="visually-hidden"><span>36</span></label></li>
+				  <li><label><input type="radio" name="size" value="38" class="visually-hidden"><span>38</span></label></li>
+			  </ul>
+			</form>
+		  </div>
+			<button>Таблица размеров</button>
+			<dl>
+				<div class="product__row row">
+				  <dt>Цвета:</dt>
+				  <dd>
+				  	<form action="#" method="get" class="row">
+				  		<input type="radio" name="color" value="grey" class="visually-hidden" id="color-grey"><label class="product__color grey" for="color-grey"></label>
+				      <input type="radio" name="color" value="white" class="visually-hidden" id="color-white"><label class="product__color white" for="color-white"></label>
+				      <input type="radio" name="color" value="black" class="visually-hidden" id="color-black"><label class="product__color black" for="color-black"></label>
+				    </form>
+			    </dd>
+			  </div>
+			  <div class="product__row row">
+				  <dt>Состав:</dt>
+				  <dd>Искусственная замша</dd>
+			  </div>
+			  <div class="product__row row">
+				  <dt>Сезон:</dt>
+				  <dd>Демисезон</dd>
+			  </div>
+			</dl>
+			<button>Подробнее</button>
+			<form action="#" method="get" class="product__form--stars row">
+				<input type="radio" name="rating" id="rating-1" value="1" class="product__checkbox one visually-hidden">
+				<input type="radio" name="rating" id="rating-2" value="2" class="product__checkbox two visually-hidden">
+				<input type="radio" name="rating" id="rating-3" value="3" class="product__checkbox three visually-hidden">
+				<input type="radio" name="rating" id="rating-4" value="4" class="product__checkbox four visually-hidden">
+				<input type="radio" name="rating" id="rating-5" value="5" class="product__checkbox five visually-hidden">
+				<label for="rating-1" class="product__stars one"></label>
+				<label for="rating-2" class="product__stars two"></label>
+				<label for="rating-3" class="product__stars three"></label>
+				<label for="rating-4" class="product__stars four"></label>
+				<label for="rating-5" class="product__stars five"></label>
+			</form>
+			<button class="product__button--favorites">в избранное</button>
+			<input type="submit" class="product__button--buy" value="КУПИТЬ">
+		</article>
+    <article class="popular">
+    	<h2>Популярные товары</h2>
+  	  <section class="row">
+  	  	<button class="popular__button--left"></button>
+        <ul class="popular__list row">
+        	<li class="column">
+        		<h3>Рюкзак кантри</h3>
+        		<p>2 999 ₽</p>
+        		<img src="img/backpack.jpg" alt="серый рюкзак">
+        		<a href="#">КУПИТЬ</a>
+        	</li>
+        	<li class="column">
+        		<h3>Туфли лакированные</h3>
+        		<p>4 999 ₽</p>
+        		<img src="img/shoes patent leather.jpg" alt="туфли бежевые">
+        		<a href="#">КУПИТЬ</a>
+        	</li>
+        	<li class="column">
+        		<h3>Косметичка</h3>
+        		<p>1 999 ₽</p>
+        		<img src="img/cosmetic bag.jpg" alt="косметичка розовая">
+        		<a href="#">КУПИТЬ</a>
+        	</li>
+        	<li class="column">
+        		<h3>Часы наручные</h3>
+        		<p>5 000 ₽</p>
+        		<img src="img/watch.jpg" alt="часы с черном ремешком">
+        		<a href="#">КУПИТЬ</a>
+        	</li>
+        </ul>
+        <button class="popular__button--right"></button>
+  	  </section>
+  	  <a href="#">СМОТРЕТЬ ЕЩЁ</a>
+    </article>
+	</main>
+	<footer class="row">
+		<h1>DOLLY</h1>
+		<ul class="footer__list--menu row">
+			<li class="footer__menu-item"><a href="#">ДОСТАВКА</a></li>
+			<li class="footer__menu-item"><a href="#">ОПЛАТА</a></li>
+			<li class="footer__menu-item"><a href="#">КОНТАКТЫ</a></li>
+			<li class="footer__menu-item"><a href="#">ВОПРОСЫ</a></li>
+			<li class="footer__menu-item"><a href="#">ОТЗЫВЫ</a></li>
+		</ul>
+		<ul class="footer__list--socialNetwork row">
+			<li class="footer__socialNetwork f"><a href="#"></a></li>
+			<li class="footer__socialNetwork ins"><a href="#"></a></li>
+	  </ul>
+	</footer>
+</body>
+</html>

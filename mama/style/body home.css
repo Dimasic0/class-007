@@ -1,0 +1,5 @@
+body {
+	background: url("../img/square.jpg") no-repeat top right,
+	            url("../img/dolly.svg") no-repeat top center,
+	            url("../img/arrows.svg") no-repeat 376px 784px;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/catalog.css">
+</head>
+<body class="catalog">
+	<header class="row">
+		<nav class="row">
+			<h1><img src="img/dolly.png" alt="логотип dolly"></h1>
+			<ul class="header__menu row">
+				<li class="header__item"><a href="#">ОДЕЖДА</a></li>
+				<li class="header__item"><a href="#">ОБУВЬ</a></li>
+				<li class="header__item"><a href="#">АКСЕССУАРЫ</a></li>
+			</ul>
+		</nav>
+		<ul class="header__list row">
+			<li><button class="header__button--heart"></button></li>
+			<li><button class="header__button--human"></button></li>
+			<li><button class="header__button--lock"></button></li>
+		</ul>
+	</header>
+	<main class="row">
+		<article class="filters">
+			<section class="filters__block--categories">
+				<h2>КАТЕГОРИИ</h2><div class="filters__upArrow"></div>
+				<ul>
+					<li class="filters__categories-item"><a href="#">Босоножки</a></li>
+					<li class="filters__categories-item"><a href="#">Балетки</a></li>
+					<li class="filters__categories-item"><a href="#">Сабо</a></li>
+					<li class="filters__categories-item"><a href="#">Сандалии</a></li>
+					<li class="filters__categories-item"><a href="#">Сабо и мюли</a></li>
+					<li class="filters__categories-item"><a href="#">Слипоны</a></li>
+					<li class="filters__categories-item"><a href="#">Домашняя обувь</a></li>
+					<li class="filters__categories-item shoes"><a href="#">Туфли</a></li>
+					<li class="filters__categories-item"><a href="#">Эспадрильи</a></li>
+					<li class="filters__categories-item"><a href="#">Ботинки</a></li>
+					<li class="filters__categories-item"><a href="#">Ботильоны</a></li>
+					<li class="filters__categories-item"><a href="#">Эспадрильи</a></li>
+					<li class="filters__categories-item"><a href="#">Ботинки</a></li>
+					<li class="filters__categories-item"><a href="#">Ботильоны</a></li>
+					<li class="filters__categories-item"><a href="#">Сапоги</a></li>
+				</ul>
+			</section>
+			<article class="filters__block--price">
+				<h2 class="visually-hidden">Цена</h2>
+				<div class="row">
+					<div class="filters__line--main"></div>
+					<div class="filters__circle left"></div>
+					<div></div>
+					<div class="filters__circle right"></div>
+				</div>
+				<form action="#" method="get">
+					<label class="filters__price from">от<input type="number" name="priceFrom"></label>
+					<label class="filters__price before">до<input type="number" name="priceUpTo"></label>
+				</form>
+			</article>
+			<article class="filters__block--brand">
+				<h2>БРЕНД</h2><div class="filters__upArrow"></div>
+				<input type="text" placeholder="Введите название бренда">
+				<ul>
+					<li>
+						<label>
+							<input type="checkbox" name="brand-alpina" checked class="filters__checkbox visually-hidden">
+							<div></div>
+							ALPINA
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="brand-amoriss" class="filters__checkbox visually-hidden">
+							<div></div>
+							AMORİSS
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="brand-alpino" checked class="filters__checkbox visually-hidden">
+							<div></div>
+							ALPİNO
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="brand-analpa" class="filters__checkbox visually-hidden">
+							<div></div>
+							ANALPA
+						</label>
+					</li>
+				</ul>
+				<button>Смотреть ещё</button>
+		  </article>
+		</article>
+		<section class="products">
+			<h2 class="visually-hidden">товары</h2>
+			<ul class="row">
+				<li class="products__item column">
+					<h3>туфли лакированные</h3>
+					<p>4 999</p>
+					<img src="img/patent leather shoes.jpg" alt="туфли">
+				</li>
+				<li class="products__item column">
+					<h3>туфли без каблука</h3>
+					<p>5 999</p>
+					<img src="img/flat shoes.jpg" alt="туфли">
+				</li>
+				<li class="products__item column">
+					<h3>туфли 13 сантиметров</h3>
+					<p>3 999</p>
+					<img src="img/shoes 13 centimeters.jpg" alt="туфли">
+				</li>
+				<li class="products__item column">
+					<h3>туфли жёлтый лак</h3>
+					<p>3 999</p>
+					<img src="img/yellow lacquer shoes.jpg" alt="туфли">
+				</li>
+				<li class="products__item column">
+					<h3>туфли пантера</h3>
+					<p>4 999</p>
+					<img src="img/panther shoes.jpg" alt="туфли">
+				</li>
+				<li class="products__item column">
+					<h3>туфли с кисточками</h3>
+					<p>6 599</p>
+					<img src="img/tassel shoes.jpg" alt="туфли">
+				</li>
+				<li class="products__item column">
+					<h3>туфли нарядные</h3>
+					<p>8 999</p>
+					<img src="img/dressy shoes.jpg" alt="туфли">
+				</li>
+				<li class="products__item column">
+					<h3>туфли полосатые</h3>
+					<p>4 599</p>
+					<img src="img/striped shoes.jpg" alt="туфли">
+				</li>
+				<li class="products__item column">
+					<h3>туфли розовые, лак</h3>
+					<p>4 799</p>
+					<img src="img/pink shoes, varnish.jpg" alt="туфли">
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer class="row">
+		<h1>DOLLY</h1>
+		<ul class="footer__list--menu row">
+			<li class="footer__menu-item"><a href="#">ДОСТАВКА</a></li>
+			<li class="footer__menu-item"><a href="#">ОПЛАТА</a></li>
+			<li class="footer__menu-item"><a href="#">КОНТАКТЫ</a></li>
+			<li class="footer__menu-item"><a href="#">ВОПРОСЫ</a></li>
+			<li class="footer__menu-item"><a href="#">ОТЗЫВЫ</a></li>
+		</ul>
+		<ul class="footer__list--socialNetwork row">
+			<li class="footer__socialNetwork f"><a href="#"></a></li>
+			<li class="footer__socialNetwork ins"><a href="#"></a></li>
+	  </ul>
+	</footer>
+	<script src="javascript.js"></script>
+</body>
+</html>

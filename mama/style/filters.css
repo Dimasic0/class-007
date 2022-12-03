@@ -1,0 +1,133 @@
+  
+.filters__upArrow {
+  display: inline-flex;
+  position: relative;
+  align-items: flex-start;
+  top: -6px;
+  width: 11px;
+  height: 5px;
+  margin: -5px  0 0 12px;
+  overflow: hidden;
+}
+.filters__upArrow::before {
+  content: "";
+  width: 1px;
+  margin: -19% 0 0 -5%;
+  background-color: #757575;
+  height: 7.4px;
+  transform: rotateZ(50deg);
+  transform-origin: bottom center;
+}
+.filters__upArrow::after {
+  content: "";
+  width: 1px;
+  margin: 0% 0% 0% 0%;
+  background-color: #757575;
+  height: 7.4px;
+  transform: rotateZ(-50deg);
+  transform-origin: bottom center;
+  position: relative;
+  top: -2px;
+  left: 92%;
+}
+.filters {
+  margin-left: 384px;
+}
+.filters h2 {
+  display: inline-block;
+  font-size: 0.rem;
+  font-weight: 400;
+  letter-spacing: 0.07rem;
+  color: #48494D;
+}
+.filters__block--categories h2 {
+  display: inline-block;
+  margin-top: 0px;
+}
+.filters__block--categories ul {
+  margin-top: 29px;
+}
+.filters__categories-item {
+  padding: 6px 0 10px 9px;
+  width: 187px;
+  font-size: 0.8em;
+}
+.filters__categories-item.shoes {
+	background-color: #D9E3EF;
+} 
+.filters__circle {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #2A2A2A;
+}
+.filters__circle.left+div {
+  width: 72px;
+  border-top: 2px solid #2A2A2A;
+  margin: 0 -3px;
+}
+.filters__circle.left {
+  margin-left: -126px;
+}
+.filters__block--price>div {
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.filters__circle.left+div {
+  align-self: center;
+}
+.filters__line--main {
+  display: block;
+  width: 187px;
+  border-top: 1px solid #CDCDCD;
+}
+.filters__price {
+  font-size: 0.6rem;
+
+}
+.filters__price.before {
+  margin-left: 58px;
+}
+.filters__price input {
+  margin-left: 6px;
+  padding: 0 0 0 7px;
+  width: 36px;
+  font-size: 1rem;
+  border: 0px;
+  border-bottom: 1px solid #CDCDCD;
+}
+.filters__block--brand>input {
+  display: block;
+  margin-top: 22px;
+  padding: 5px 20px 1px 12px;
+  font-size: 0.6rem;
+  color: #C4C4C4;
+  background: url("../img/line.jpg") no-repeat 7px 6px, url("../img/magnifying glass.svg") no-repeat 166px 6px;
+}
+.filters__block--brand label {
+  display: flex;
+  font-size: 0.6rem;
+}
+.filters__checkbox+div {
+  width: 10px;
+  height: 8px;
+  margin: 3px 11px 0 0;
+}
+.filters__checkbox:checked+div{
+  background: url("../img/check mark.svg");
+} 
+.filters__block--brand ul {
+  margin-top: 27px;
+  display: flex;
+  width: 162px;
+  flex-wrap: wrap;
+  gap: 10px 25px;
+}
+.filters__block--brand button {
+  margin-top: 22px;
+  font-size: 0.8rem;
+  color: #7CBCEC;
+  padding-bottom: 0;
+  border-bottom: 1px solid #7CBCEC1A;
+}
